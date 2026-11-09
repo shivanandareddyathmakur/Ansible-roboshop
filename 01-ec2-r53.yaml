@@ -6,11 +6,11 @@
     sg_id: sg-03765871e0a2431be
     zone_id: Z03636913QJEOCADGO5S1
     domain_name: "reddy25.shop"
-    instances:
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq
+    # instances:
+    # - mongodb
+    # - redis
+    # - mysql
+    # - rabbitmq
   tasks:
   - name: create ec2-instance
     amazon.aws.ec2_instance:
@@ -47,3 +47,4 @@
       value: "{{ item.instances[0].private_ip_address }}"
       overwrite: true
     loop: "{{ ec2_output.results }}"
+
