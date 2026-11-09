@@ -3,7 +3,7 @@
   connection: local
   vars:
     ami_id: ami-0055977a6e828a4f4
-    sg_id: 03765871e0a2431be
+    sg_id: sg-03765871e0a2431be
     zone_id: Z03636913QJEOCADGO5S1
     domain_name: "reddy25.shop"
     instances:
