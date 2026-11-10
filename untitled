@@ -1,0 +1,22 @@
+ {
+        "changed": true,
+        "cmd": [
+            "mongosh",
+            "mongodb.reddy25.shop",
+            "--quiet",
+            "--eval",
+            "db.getMongo().getDBNames().indexOf('catalogue')"
+        ],
+        "delta": "0:00:01.108902",
+        "end": "2026-11-10 06:48:26.057324",
+        "failed": false,
+        "msg": "",
+        "rc": 0,
+        "start": "2026-11-10 06:48:24.948422",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "-1",
+        "stdout_lines": [
+            "-1"
+        ]
+    }
