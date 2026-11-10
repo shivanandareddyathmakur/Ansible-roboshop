@@ -44,7 +44,7 @@
   - name: copy catalogue service file
     ansible.builtin.copy:
       src: catalogue.service
-      path: /etc/systemd/system/catalogue.service
+      dest: /etc/systemd/system/catalogue.service
 
   - name: install mongodb client
     ansible.builtin.package:
