@@ -47,7 +47,7 @@
       dest: /etc/systemd/system/catalogue.service
 
   - name: copy mongo repo
-    ansble.builtin.copy:
+    ansible.builtin.copy:
       src: mongo.repo
       dest: /etc/yum.repos.d/mongo.repo
 
